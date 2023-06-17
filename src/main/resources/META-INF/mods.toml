@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+[[mods]]
+modId="sonicwave"
+version="1.0.0"
+displayName="Sonic Wave"
+# logoFile="examplemod.png"
+credits="-"
+authors="Povstalec"
+description='''
+A mod that allows players to use the Sonic Wave ability.
+'''
+[[dependencies.sonicwave]]
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.sonicwave]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
